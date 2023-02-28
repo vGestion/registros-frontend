@@ -1,9 +1,12 @@
+import { Layout } from "@/components/layouts";
 import { Typography } from "@mui/material";
 
 export default function HomePage() {
   return (
     <>
-      <Typography variant='h1' color='primary'>Plataforma de Registros Datalat</Typography>
+      <Layout>
+        {/* <Typography variant='h1'>Plataforma de Registros Datalat</Typography> */}
+      </Layout>
     </>
   )
 }
