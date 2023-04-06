@@ -17,9 +17,6 @@ export const Layout:FC<Props> = ({ title = 'Registros Datalat', children}) => {
 
         <Navbar />
         {/* Footer */}
-        <Box sx={{ padding: '10px 20px'}}>
-            {children}
-        </Box>
     </Box>
   )
 }

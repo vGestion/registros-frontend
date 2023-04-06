@@ -1,0 +1,17 @@
+.primaryButton{
+    background-Color:'#FC4F80';
+    border-Radius:'15px';
+    padding:'12px, 24px, 12px, 24px';
+    font-Size:'28px'; 
+    text-Transform:'capitalize';
+    color:'white';
+}
+
+.primaryButtonBlue{
+    background-Color:'#1822B7';
+    border-Radius:'15px';
+    padding:'12px, 24px, 12px, 24px';
+    font-Size:'28px'; 
+    text-Transform:'capitalize';
+    color:'white';
+}

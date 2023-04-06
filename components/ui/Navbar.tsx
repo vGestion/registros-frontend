@@ -1,23 +1,17 @@
-import { AppBar, IconButton, Toolbar, Typography } from '@mui/material';
-import Brightness4OutlinedIcon from '@mui/icons-material/Brightness4Outlined';
+import { AppBar, Box, IconButton, Link, Toolbar, Typography } from '@mui/material';
+import ButtonPrimary from '../buttons/ButtonPrimary';
 
 export const Navbar = () => {
   return (
     <AppBar position='sticky'>
-        <Toolbar>
-        <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Logo
-          </Typography>
-          <IconButton
-            size="large"
-            edge="start"
-            color="inherit"
-            aria-label="menu"
-            sx={{ mr: 2 }}
-          >
-            <Brightness4OutlinedIcon />
-          </IconButton>
-        </Toolbar>
+      <Toolbar className='header'>
+        <Link href="https://datalat.org/">
+        <Box component="img" src="/principal_blanco.png" className="logo">
+        </Box>
+        </Link>
+        
+        <ButtonPrimary text={'Iniciar Sesión'} url={'https://datalat.org/'}></ButtonPrimary>
+      </Toolbar>
     </AppBar>
   )
 }

@@ -1,0 +1,87 @@
+.background{
+    border-radius: 15px;
+    background-Color: rgb(171, 184, 195, 0.35);
+}
+
+.buttonContainer {
+    display: flex;
+    align-Items: end
+}
+
+.cardMain {
+    display: flex;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-Radius: 0.5rem;
+    box-Shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    background-Color: rgb(171, 184, 195, 0.35);
+    padding: 20px
+}
+
+.filter{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.footer {
+    background-color: #1822B7;
+    font-Family: Roboto, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    padding: 16px;
+    margin-top: 15px;
+    text-Align: center;
+    bottom: 0;
+    width: 100%
+}
+
+.image {
+    padding: 16px;
+    min-Width: 250px;
+    border-Radius: 0.5rem;
+    align-Items: center
+}
+
+.logo {
+    max-height: 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.primaryButton {
+    background-Color: #FC4F80;
+    border-Radius: 15px;
+    font-Size: 18px;
+    text-Transform: capitalize;
+    color: white;
+}
+
+.primaryButtonBlue {
+    background-Color: #1822B7;
+    border-Radius: 15px;
+    font-Size: 18px;
+    text-Transform: capitalize;
+    color: white;
+}
+
+.subtitle {
+    color:#333333;
+    font-Size: 18px;
+    font-weight: 90;
+    text-Align: justify;
+    line-Height: 21.09px;
+    padding: 10px
+}
+
+.title {
+    color: #1822B7;
+    font-Size: 20px;
+    font-Weight: 600;
+    padding: 10px
+}
+
