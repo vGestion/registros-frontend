@@ -1,7 +1,7 @@
 import CardEvent from "@/components/cards/CardEvent";
 import { Layout } from "@/components/layouts";
 import { Filter } from "@/components/selector/Filter";
-import { Text } from "@/components/textInput/Text";
+import { NavbarMenu } from "components/menu/NavbarMenu";
 import { Box, Typography } from "@mui/material";
 
 export default function HomePage() {
@@ -12,6 +12,7 @@ export default function HomePage() {
       <Typography className="title" style={{ display: "flex", justifyContent: "center", fontSize: "28px" }}>
         PRÓXIMOS EVENTOS
       </Typography>
+      <NavbarMenu/>
       <Box className="filter">
         <Filter title={"Tipo"}></Filter>
         <Filter title={"Modalidad"}></Filter>
