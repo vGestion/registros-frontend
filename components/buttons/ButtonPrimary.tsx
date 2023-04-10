@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 import { Button, CssBaseline, Link } from '@mui/material';
 
-const ButtonPrimary = (props:{text: string, url:string}) => {
+const ButtonPrimary = (props:{text: string, url?:string,   children?: ReactNode, onClick?: () => void}) => {
   return (
     
     <Link href={props.url} style={{textDecoration: "none"}}>
