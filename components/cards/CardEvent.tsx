@@ -4,7 +4,7 @@ import { styled } from "@mui/system";
 import ButtonPrimary from '../buttons/ButtonPrimary';
 
 const CardEvent = (props:{image:string, name:string, description:string, url?
-  : string, buttonText:string, onClick?: () => voi}) => {
+  : string, buttonText:string, onClick?: () => void}) => {
   return (
     <Card className="cardMain">
       <CardMedia className="image" image={props.image}/>
