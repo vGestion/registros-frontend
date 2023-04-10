@@ -6,7 +6,7 @@ const ButtonPrimary = (props:{text: string, url?:string,   children?: ReactNode,
     
     <Link href={props.url} style={{textDecoration: "none"}}>
       <CssBaseline />
-      <Button variant="contained" className="primaryButton">{props.text}</Button>
+      <Button variant="contained" size="small" className="primaryButton">{props.text}</Button>
     </Link>
     
   );
