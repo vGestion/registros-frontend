@@ -9,9 +9,8 @@ export const Filter = (props: { title: string }) => {
     };
 
     return (
-        <div>
-            <FormControl sx={{ m: 1, minWidth: 160 }}>
-                <InputLabel id="demo-simple-select-helper-label">{props.title}</InputLabel>
+            <FormControl sx={{ m: 1, minWidth: 120 }}>
+                <InputLabel id="demo-simple-select-helper-label" color="primary">{props.title}</InputLabel>
                 <Select
                     labelId="demo-simple-select-helper-label"
                     id="demo-simple-select-helper"
@@ -27,10 +26,5 @@ export const Filter = (props: { title: string }) => {
                     <MenuItem value={30}>Thirty</MenuItem>
                 </Select>
             </FormControl>
-
-        </div>
-
     )
 }
-
-
