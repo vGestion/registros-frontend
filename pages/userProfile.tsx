@@ -12,16 +12,16 @@ export default function Login() {
         </Layout>
             <Box style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
                 <Box className="cardBackground">
-                    <Box>
-                        <Typography className="title">
-                            Crear cuenta
+                    <Box >
+                        <Typography className="title" >
+                            Perfil
                         </Typography>
                     </Box>
                         <Box style={{ display: "flex", flexDirection: "row" }}>
                         <Box style={{ display: "flex", justifyContent: "center", flexDirection: "column" }}>
-                            <Text  placeholder={"Ana Maria"} label={"Nombres"}></Text>
+                            <Text placeholder={"Ana Maria"} label={"Nombres"}></Text>
                             <Text placeholder={"Perez Rios"} label={"Nombres"}></Text>
-                           
+                            
                             <Filter title={"Sexo"}></Filter>
                             <Filter title={"Genero"}></Filter>
                             <Text placeholder={"1700000000"} label={"Cedula o pasaporte"}></Text>

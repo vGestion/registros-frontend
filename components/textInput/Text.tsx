@@ -5,7 +5,7 @@ export const Text = (props: { placeholder: string, label:string }) => {
 
 
     return (
-        <TextField label={props.label} color="primary" style={{margin: "15px"}} focused placeholder={props.placeholder}></TextField>
+        <TextField label={props.label} color="primary" style={{margin: "15px"}} focused placeholder={props.placeholder} ></TextField>
 
     )
 }

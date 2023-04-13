@@ -16,7 +16,16 @@ export default function Login() {
                 <Text placeholder={"email@correo.com"} label={"Correo electrónico"}></Text>
                 <Text placeholder={"****************"} label={"Contraseña"}></Text>
                 <ButtonPrimary text={"Iniciar sesión"} url={"#"}></ButtonPrimary>
-        </Box>
+                <Box style={{padding:'5px',marginTop:'10px'}}>
+                    <a href="">¿Olvidaste tu contraseña?</a>
+                    
+                </Box>
+                <Box style={{padding:'5px'}}>
+                    <a href="">Regístrate</a>
+                </Box>
+                
+            </Box>
+            
         </Box>
         
         </>

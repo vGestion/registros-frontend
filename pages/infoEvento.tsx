@@ -31,8 +31,14 @@ export default function InfoEvento() {
     return (
         <><Layout>
         </Layout>
+        <Typography className="title" style={{textAlign:'center'}} >
+                            Informacion del evento
+                        </Typography>
+          
             <Box className="cardMain" style={{ width: '60%', margin: 'auto', flexDirection: 'column', padding: '40px', marginTop: '40px', marginBottom: '40px'}}>
+                
                 <Box style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                
                     <CardInfo
                         image={"https://datalat.org/wp-content/uploads/2023/03/Open-Data-Day-tw-444x250.png"}
                         tittle={"Open Data Day UIO 2023: Una mirada a la IA y los datos en Ecuador"}
